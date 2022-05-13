@@ -4,16 +4,16 @@
 Ambigious
 
 ### Top bar
-Close Sidebar
-Develop notes
-User Login Modal Button
+1. Close Sidebar
+2. Develop notes
+3. User Login Modal Button
 
 ### Login Popup Modal
-Click top right button on top bar for login popup
-email, password, login
-create new account
-(research on email verification)
-forgot password email recovery?
+1. Click top right button on top bar for login popup
+2. email, password, login
+3. create new account
+4. (research on email verification)
+5. forgot password email recovery?
 
 ### Edit mdx
 Choose tree: Connect, Connect -> Youth Group, Get Involved -> Serving
@@ -26,14 +26,15 @@ Any admin or write user can edit or add any blog posts, and but it will not over
 Static
 
 ### Home
-Custom page
-Static Picture flowing
-Mdx content: Welcome, Kids, Youth, Young Adults
-Dynamic content: Blogs, Messages (sermons), calendar
-Static content: offering
+1. Custom page
+2. Static Picture flowing
+3. Mdx content: Welcome, Kids, Youth, Young Adults
+4. Dynamic content: Blogs, Messages (sermons), calendar
+5. Static content: offering
 
 ### About
 Type: MDX list with 1 static picture
+
 Static bible picture serve in frontend
 1. Vision
 2. Beliefs
@@ -61,12 +62,15 @@ Static bible picture serve in frontend
 
 ### Connect
 Type: MDX tree
+
 mdx in utf-8
+```text
 |-- Connect (manually store the picture on S3 bucket)
 |   |-- Children's Ministry
 |   |-- Youth Group
 |   |-- Young Adults
 |   |-- Abundant Life
+```
 
 ### Get Involved
 Type: MDX list with 1 static picture
@@ -78,7 +82,6 @@ Type: MDX list with 1 static picture
 embed google calendar
 
 ### Sermons
-GET /sermons
 1. sermons: (ideas: use special verse syntax to link to external bible?)
 ```json
 [
